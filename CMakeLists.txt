@@ -3,4 +3,4 @@ project(Projet_Robot)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ClashOfECEprojet main.cpp)
+add_executable(Projet_Robot main.cpp)
