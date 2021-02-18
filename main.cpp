@@ -6,7 +6,6 @@ int nbAleatoire(){
     int nb = rand()%5;
     return nb;
 }
-
 void afficherTab(int tableau[5][5]){
     for (int i = 0; i<5; i++){
         for (int j = 0; j<5; j++){
@@ -15,6 +14,7 @@ void afficherTab(int tableau[5][5]){
         std::cout<<"|"<<std::endl;
     }
 }
+
 
 int main() {
 
