@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\val\CLiobProjects\Projet_Robot
+CMAKE_SOURCE_DIR = C:\Users\felix\Desktop\Info\Projet_Robot2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug\CMakeFiles C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug\CMakeFiles C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ ClashOfECEprojet/fast:
 	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/build
 .PHONY : ClashOfECEprojet/fast
 
-Main.obj: Main.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : Main.obj
+.PHONY : main.obj
 
 # target to build an object file
-Main.cpp.obj:
-	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj
-.PHONY : Main.cpp.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-Main.i: Main.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Main.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Main.cpp.i:
-	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/Main.cpp.i
-.PHONY : Main.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Main.s: Main.cpp.s
+main.s: main.cpp.s
 
-.PHONY : Main.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Main.cpp.s:
-	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/Main.cpp.s
-.PHONY : Main.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... ClashOfECEprojet
 	@echo ... rebuild_cache
-	@echo ... Main.obj
-	@echo ... Main.i
-	@echo ... Main.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

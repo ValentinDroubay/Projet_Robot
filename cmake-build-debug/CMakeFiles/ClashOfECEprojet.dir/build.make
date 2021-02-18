@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\val\CLiobProjects\Projet_Robot
+CMAKE_SOURCE_DIR = C:\Users\felix\Desktop\Info\Projet_Robot2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ClashOfECEprojet.dir/depend.make
@@ -56,32 +56,32 @@ include CMakeFiles/ClashOfECEprojet.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ClashOfECEprojet.dir/flags.make
 
-CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj: CMakeFiles/ClashOfECEprojet.dir/flags.make
-CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj: ../Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClashOfECEprojet.dir\Main.cpp.obj -c C:\Users\val\CLiobProjects\Projet_Robot\Main.cpp
+CMakeFiles/ClashOfECEprojet.dir/main.cpp.obj: CMakeFiles/ClashOfECEprojet.dir/flags.make
+CMakeFiles/ClashOfECEprojet.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClashOfECEprojet.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClashOfECEprojet.dir\main.cpp.obj -c C:\Users\felix\Desktop\Info\Projet_Robot2\main.cpp
 
-CMakeFiles/ClashOfECEprojet.dir/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClashOfECEprojet.dir/Main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\val\CLiobProjects\Projet_Robot\Main.cpp > CMakeFiles\ClashOfECEprojet.dir\Main.cpp.i
+CMakeFiles/ClashOfECEprojet.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClashOfECEprojet.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felix\Desktop\Info\Projet_Robot2\main.cpp > CMakeFiles\ClashOfECEprojet.dir\main.cpp.i
 
-CMakeFiles/ClashOfECEprojet.dir/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClashOfECEprojet.dir/Main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\val\CLiobProjects\Projet_Robot\Main.cpp -o CMakeFiles\ClashOfECEprojet.dir\Main.cpp.s
+CMakeFiles/ClashOfECEprojet.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClashOfECEprojet.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felix\Desktop\Info\Projet_Robot2\main.cpp -o CMakeFiles\ClashOfECEprojet.dir\main.cpp.s
 
 # Object files for target ClashOfECEprojet
 ClashOfECEprojet_OBJECTS = \
-"CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj"
+"CMakeFiles/ClashOfECEprojet.dir/main.cpp.obj"
 
 # External object files for target ClashOfECEprojet
 ClashOfECEprojet_EXTERNAL_OBJECTS =
 
-ClashOfECEprojet.exe: CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj
+ClashOfECEprojet.exe: CMakeFiles/ClashOfECEprojet.dir/main.cpp.obj
 ClashOfECEprojet.exe: CMakeFiles/ClashOfECEprojet.dir/build.make
 ClashOfECEprojet.exe: CMakeFiles/ClashOfECEprojet.dir/linklibs.rsp
 ClashOfECEprojet.exe: CMakeFiles/ClashOfECEprojet.dir/objects1.rsp
 ClashOfECEprojet.exe: CMakeFiles/ClashOfECEprojet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ClashOfECEprojet.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ClashOfECEprojet.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ClashOfECEprojet.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/ClashOfECEprojet.dir/clean:
 .PHONY : CMakeFiles/ClashOfECEprojet.dir/clean
 
 CMakeFiles/ClashOfECEprojet.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\val\CLiobProjects\Projet_Robot C:\Users\val\CLiobProjects\Projet_Robot C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug C:\Users\val\CLiobProjects\Projet_Robot\cmake-build-debug\CMakeFiles\ClashOfECEprojet.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\felix\Desktop\Info\Projet_Robot2 C:\Users\felix\Desktop\Info\Projet_Robot2 C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug C:\Users\felix\Desktop\Info\Projet_Robot2\cmake-build-debug\CMakeFiles\ClashOfECEprojet.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ClashOfECEprojet.dir/depend
 

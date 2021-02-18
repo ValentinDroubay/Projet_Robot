@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj"
+  "CMakeFiles/ClashOfECEprojet.dir/main.cpp.obj"
   "ClashOfECEprojet.exe"
   "ClashOfECEprojet.exe.manifest"
   "ClashOfECEprojet.pdb"
