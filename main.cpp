@@ -31,6 +31,8 @@ int main() {
 
     afficherTab(tableau);
 
+    std::cout <<std::endl<<"1 : Robot  |  8 : Ressource";
+
 
     return 0;
 }
