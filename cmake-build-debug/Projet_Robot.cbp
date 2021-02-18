@@ -27,8 +27,8 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ClashOfECEprojet">
-				<Option output="C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/ClashOfECEprojet.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Projet_Robot">
+				<Option output="C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Projet_Robot.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +42,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClashOfECEprojet"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet_Robot"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ClashOfECEprojet/fast">
-				<Option output="C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/ClashOfECEprojet.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Projet_Robot/fast">
+				<Option output="C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Projet_Robot.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,7 +63,7 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClashOfECEprojet/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet_Robot/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/val/CLiobProjects/Projet_Robot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,8 +80,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot/Main.cpp">
-			<Option target="ClashOfECEprojet"/>
+		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot/main.cpp">
+			<Option target="Projet_Robot"/>
 		</Unit>
 		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

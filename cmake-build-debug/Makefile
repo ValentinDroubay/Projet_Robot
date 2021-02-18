@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ClashOfECEprojet
+# Target rules for targets named Projet_Robot
 
 # Build rule for target.
-ClashOfECEprojet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 ClashOfECEprojet
-.PHONY : ClashOfECEprojet
+Projet_Robot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Projet_Robot
+.PHONY : Projet_Robot
 
 # fast build rule for target.
-ClashOfECEprojet/fast:
-	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/build
-.PHONY : ClashOfECEprojet/fast
+Projet_Robot/fast:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/build
+.PHONY : Projet_Robot/fast
 
-Main.obj: Main.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : Main.obj
+.PHONY : main.obj
 
 # target to build an object file
-Main.cpp.obj:
-	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/Main.cpp.obj
-.PHONY : Main.cpp.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-Main.i: Main.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Main.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Main.cpp.i:
-	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/Main.cpp.i
-.PHONY : Main.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Main.s: Main.cpp.s
+main.s: main.cpp.s
 
-.PHONY : Main.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Main.cpp.s:
-	$(MAKE) -f CMakeFiles\ClashOfECEprojet.dir\build.make CMakeFiles/ClashOfECEprojet.dir/Main.cpp.s
-.PHONY : Main.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -156,11 +156,11 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... ClashOfECEprojet
+	@echo ... Projet_Robot
 	@echo ... rebuild_cache
-	@echo ... Main.obj
-	@echo ... Main.i
-	@echo ... Main.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
