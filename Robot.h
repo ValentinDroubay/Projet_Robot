@@ -14,10 +14,8 @@ private:
 public:
     Robot();
     int GetForm();
-    int GetX();
-    int GetY();
-    int SetDx(int nb);
-    int SetDy(int nb);
+    int GetDx();
+    int GetDy();
     int AvancerDroite(int tableau[5][5]);
     int AvancerBas(int tableau[5][5]);
     int AvancerHaut(int tableau[5][5]);

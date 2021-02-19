@@ -7,20 +7,13 @@ Robot::Robot() : m_form{1}, m_x {0}, m_y(0), m_dx{0}, m_dy{0} {}
 int Robot::GetForm() {
     return m_form;
 }
-int Robot::GetX(){
+int Robot::GetDx(){
     return m_dx;
 }
-int Robot::GetY(){
+int Robot::GetDy(){
     return m_dy;
 }
-int Robot::SetDy(int nb){
-    m_dy = nb;
-    return m_dy;
-}
-int Robot::SetDx(int nb){
-    m_dx = nb;
-    return m_dx;
-}
+
 int Robot::AvancerDroite(int tableau[5][5]){
     m_x += 1;
     tableau[m_y][m_x] = m_form;

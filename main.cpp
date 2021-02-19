@@ -26,7 +26,7 @@ int main() {
     tableau[nbAleatoire()][nbAleatoire()] = 8;
     afficherTab(tableau);
     robot.Reperage(tableau);
-    robot.Course(robot.GetX(),robot.GetY(),tableau);
+    robot.Course(robot.GetDx(),robot.GetDy(),tableau);
 
 
      // TEST //
