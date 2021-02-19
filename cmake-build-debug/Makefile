@@ -122,6 +122,33 @@ Projet_Robot/fast:
 	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/build
 .PHONY : Projet_Robot/fast
 
+Fonctions.obj: Fonctions.cpp.obj
+
+.PHONY : Fonctions.obj
+
+# target to build an object file
+Fonctions.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Fonctions.cpp.obj
+.PHONY : Fonctions.cpp.obj
+
+Fonctions.i: Fonctions.cpp.i
+
+.PHONY : Fonctions.i
+
+# target to preprocess a source file
+Fonctions.cpp.i:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Fonctions.cpp.i
+.PHONY : Fonctions.cpp.i
+
+Fonctions.s: Fonctions.cpp.s
+
+.PHONY : Fonctions.s
+
+# target to generate assembly for a file
+Fonctions.cpp.s:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Fonctions.cpp.s
+.PHONY : Fonctions.cpp.s
+
 Robot.obj: Robot.cpp.obj
 
 .PHONY : Robot.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... edit_cache
 	@echo ... Projet_Robot
 	@echo ... rebuild_cache
+	@echo ... Fonctions.obj
+	@echo ... Fonctions.i
+	@echo ... Fonctions.s
 	@echo ... Robot.obj
 	@echo ... Robot.i
 	@echo ... Robot.s

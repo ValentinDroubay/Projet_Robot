@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot2.0/Fonctions.cpp">
+			<Option target="Projet_Robot"/>
+		</Unit>
+		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot2.0/Fonctions.h">
+			<Option target="Projet_Robot"/>
+		</Unit>
 		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot2.0/Robot.cpp">
 			<Option target="Projet_Robot"/>
 		</Unit>

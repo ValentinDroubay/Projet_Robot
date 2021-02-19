@@ -5,4 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Projet_Robot main.cpp
         Robot.h
-        Robot.cpp)
+        Robot.cpp
+        Fonctions.h
+        Fonctions.cpp
+        )

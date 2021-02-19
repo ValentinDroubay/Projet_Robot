@@ -2,19 +2,12 @@
 #include <cstdlib>
 #include <ctime>
 #include "Robot.h"
+#include "Fonctions.h"
+
 
 int nbAleatoire(){
     int nb = rand()%5;
     return nb;
-}
-void afficherTab(int tableau[5][5]){
-    for (int i = 0; i<5; i++){
-        for (int j = 0; j<5; j++){
-            std::cout<<"| "<< tableau[i][j]<<" ";
-        }
-        std::cout<<"|"<<std::endl;
-    }
-std::cout << "     " << std::endl;
 }
 
 
@@ -32,15 +25,16 @@ int main() {
     tableau[0][0] = robot.GetForm();
     tableau[nbAleatoire()][nbAleatoire()] = 8;
     afficherTab(tableau);
+    robot.Reperage(tableau);
+    robot.Course(robot.GetX(),robot.GetY(),tableau);
 
+
+     // TEST //
     /*robot.AvancerDroite(tableau);
-    afficherTab(tableau);
     robot.AvancerBas(tableau);
-    afficherTab(tableau);
     robot.AvancerGauche(tableau);
-    afficherTab(tableau);
-    robot.AvancerHaut(tableau);
-    afficherTab(tableau);*/
+    robot.AvancerHaut(tableau);*/
+
 
 
 
