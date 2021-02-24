@@ -13,3 +13,17 @@ void afficherTab(int tableau[5][5]){
     }
     std::cout << "     " << std::endl;
 }
+void afficherTab(int tableau[5][1]){
+    for (int i = 0; i <5 ; ++i) {
+        for (int j = 0; j < 2; ++j) {
+            std::cout << " | " << tableau[i][j] << " ";
+        }
+        std::cout << "|"<<std::endl;
+    }
+    std::cout << "    " << std::endl;
+}
+
+int nbAleatoire(){
+    int nb = rand()%5;
+    return nb;
+}

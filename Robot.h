@@ -21,6 +21,7 @@ public:
     int AvancerHaut(int tableau[5][5]);
     int AvancerGauche(int tableau[5][5]);
     int Reperage(int tableau[5][5]);
+
     void Course(int dx, int dy, int tableau[5][5]);
 
 

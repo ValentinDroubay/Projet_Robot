@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\val\CLiobProjects\Projet_Robot2.0
+CMAKE_SOURCE_DIR = C:\Users\val\CLiobProjects\Projet_Robot3.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\val\CLiobProjects\Projet_Robot2.0\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\val\CLiobProjects\Projet_Robot3.0\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\val\CLiobProjects\Projet_Robot2.0\cmake-build-debug\CMakeFiles C:\Users\val\CLiobProjects\Projet_Robot2.0\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\val\CLiobProjects\Projet_Robot3.0\cmake-build-debug\CMakeFiles C:\Users\val\CLiobProjects\Projet_Robot3.0\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\val\CLiobProjects\Projet_Robot2.0\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\val\CLiobProjects\Projet_Robot3.0\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,60 @@ Fonctions.cpp.s:
 	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Fonctions.cpp.s
 .PHONY : Fonctions.cpp.s
 
+Position.obj: Position.cpp.obj
+
+.PHONY : Position.obj
+
+# target to build an object file
+Position.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Position.cpp.obj
+.PHONY : Position.cpp.obj
+
+Position.i: Position.cpp.i
+
+.PHONY : Position.i
+
+# target to preprocess a source file
+Position.cpp.i:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Position.cpp.i
+.PHONY : Position.cpp.i
+
+Position.s: Position.cpp.s
+
+.PHONY : Position.s
+
+# target to generate assembly for a file
+Position.cpp.s:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Position.cpp.s
+.PHONY : Position.cpp.s
+
+Ressources.obj: Ressources.cpp.obj
+
+.PHONY : Ressources.obj
+
+# target to build an object file
+Ressources.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Ressources.cpp.obj
+.PHONY : Ressources.cpp.obj
+
+Ressources.i: Ressources.cpp.i
+
+.PHONY : Ressources.i
+
+# target to preprocess a source file
+Ressources.cpp.i:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Ressources.cpp.i
+.PHONY : Ressources.cpp.i
+
+Ressources.s: Ressources.cpp.s
+
+.PHONY : Ressources.s
+
+# target to generate assembly for a file
+Ressources.cpp.s:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Ressources.cpp.s
+.PHONY : Ressources.cpp.s
+
 Robot.obj: Robot.cpp.obj
 
 .PHONY : Robot.obj
@@ -215,6 +269,12 @@ help:
 	@echo ... Fonctions.obj
 	@echo ... Fonctions.i
 	@echo ... Fonctions.s
+	@echo ... Position.obj
+	@echo ... Position.i
+	@echo ... Position.s
+	@echo ... Ressources.obj
+	@echo ... Ressources.i
+	@echo ... Ressources.s
 	@echo ... Robot.obj
 	@echo ... Robot.i
 	@echo ... Robot.s

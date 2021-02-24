@@ -2,19 +2,18 @@
 #include <cstdlib>
 #include <ctime>
 #include "Robot.h"
+#include "Ressources.h"
 #include "Fonctions.h"
 
 
-int nbAleatoire(){
-    int nb = rand()%5;
-    return nb;
-}
 
 
 int main() {
 
     srand((unsigned int)time(0));
     Robot robot;
+    Ressources ressources;
+    Ressources ressources1;
 
     int tableau[5][5];
     for (int i = 0; i<5; i++){
@@ -23,8 +22,10 @@ int main() {
         }
     }
     tableau[0][0] = robot.GetForm();
-    tableau[nbAleatoire()][nbAleatoire()] = 8;
+    tableau[ressources.getX()][ressources.getY()] = ressources.getForm();
+    tableau[ressources1.getX()][ressources1.getY()] = ressources1.getForm();
     afficherTab(tableau);
+
     robot.Reperage(tableau);
     robot.Course(robot.GetDx(),robot.GetDy(),tableau);
 
