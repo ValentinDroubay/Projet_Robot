@@ -27,6 +27,7 @@ int main() {
     afficherTab(tableau);
     robot.Reperage(tableau);
     robot.Course(robot.GetDx(),robot.GetDy(),tableau);
+    //robot.Retour(robot.GetDx(),robot.GetDy(),tableau);
 
 
      // TEST //

@@ -3,7 +3,7 @@
 
 
 
-Robot::Robot() : m_form{1}, m_x {0}, m_y(0), m_dx{0}, m_dy{0} {}
+Robot::Robot() : m_form{4}, m_x {0}, m_y(0), m_dx{0}, m_dy{0} {}
 int Robot::GetForm() {
     return m_form;
 }
@@ -17,28 +17,28 @@ int Robot::GetDy(){
 int Robot::AvancerDroite(int tableau[5][5]){
     m_x += 1;
     tableau[m_y][m_x] = m_form;
-    tableau[m_y][m_x-1] = 0;
+    tableau[m_y][m_x-1] = 1;
     afficherTab(tableau);
     return m_x;
 }
 int Robot::AvancerBas(int tableau[5][5]){
     m_y += 1;
     tableau[m_y][m_x] = m_form;
-    tableau[m_y-1][m_x] = 0;
+    tableau[m_y-1][m_x] = 1;
     afficherTab(tableau);
     return m_y;
 }
 int Robot::AvancerHaut(int tableau[5][5]){
     m_y -= 1;
     tableau[m_y][m_x] = m_form;
-    tableau[m_y+1][m_x] = 0;
+    tableau[m_y+1][m_x] = 1;
     afficherTab(tableau);
     return m_y;
 }
 int Robot::AvancerGauche(int tableau[5][5]){
     m_x -= 1;
     tableau[m_y][m_x] = m_form;
-    tableau[m_y][m_x+1] = 0;
+    tableau[m_y][m_x+1] = 1;
     afficherTab(tableau);
     return m_x;
 }
@@ -64,12 +64,35 @@ void Robot::Course(int dx, int dy, int tableau[5][5]) { // Fonction du chemin ro
 }
     for (int i = 0; i < dy ; ++i) {
         if (dy > 0) {
-            dy * AvancerBas(tableau);
+             AvancerBas(tableau);
         } else if (dy < 0) {
-            dy * AvancerHaut(tableau);
+             AvancerHaut(tableau);
         }
     }
     if (dx == 0 && dy == 0){
         std::cout << "vous etes sur la ressource " << std::endl;
     }
+}
+
+void Robot::Retour(int dx, int dy, int tableau[5][5]) {
+
+    for (int i = 0; i < dy; ++i) {
+        if (dy > 0) {
+            AvancerHaut(tableau);
+            tableau[m_y-1][m_x] = 2;
+        } else if (dy < 0) {
+            AvancerBas(tableau);
+            tableau[m_y+1][m_x] = 2;
+        }
+    }
+    for (int i = 0; i < dx; ++i) {
+        if (dx > 0) {
+            AvancerGauche(tableau);
+            tableau[m_y-1][m_x] = 2;
+        } else if (dx < 0) {
+            AvancerDroite(tableau);
+            tableau[m_y+1][m_x] = 2;
+        }
+    }
+
 }

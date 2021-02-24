@@ -5,7 +5,7 @@
 class Robot {
 
 private:
-    int m_form = 1;
+    int m_form = 4;
     int m_x = 0;
     int m_y = 0;
     int m_dx = 0;
@@ -21,8 +21,9 @@ public:
     int AvancerHaut(int tableau[5][5]);
     int AvancerGauche(int tableau[5][5]);
     int Reperage(int tableau[5][5]);
+    void Retour(int dx, int dy, int tableau[5][5]);
     void Course(int dx, int dy, int tableau[5][5]);
-
+    ~Robot();
 
 };
 
