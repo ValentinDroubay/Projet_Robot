@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot.reload/Fonctions.h">
 			<Option target="Projet_Robot"/>
 		</Unit>
+		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot.reload/Ressources.cpp">
+			<Option target="Projet_Robot"/>
+		</Unit>
+		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot.reload/Ressources.h">
+			<Option target="Projet_Robot"/>
+		</Unit>
 		<Unit filename="C:/Users/val/CLiobProjects/Projet_Robot.reload/Robot.cpp">
 			<Option target="Projet_Robot"/>
 		</Unit>

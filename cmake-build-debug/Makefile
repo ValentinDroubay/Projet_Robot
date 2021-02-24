@@ -149,6 +149,33 @@ Fonctions.cpp.s:
 	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Fonctions.cpp.s
 .PHONY : Fonctions.cpp.s
 
+Ressources.obj: Ressources.cpp.obj
+
+.PHONY : Ressources.obj
+
+# target to build an object file
+Ressources.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Ressources.cpp.obj
+.PHONY : Ressources.cpp.obj
+
+Ressources.i: Ressources.cpp.i
+
+.PHONY : Ressources.i
+
+# target to preprocess a source file
+Ressources.cpp.i:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Ressources.cpp.i
+.PHONY : Ressources.cpp.i
+
+Ressources.s: Ressources.cpp.s
+
+.PHONY : Ressources.s
+
+# target to generate assembly for a file
+Ressources.cpp.s:
+	$(MAKE) -f CMakeFiles\Projet_Robot.dir\build.make CMakeFiles/Projet_Robot.dir/Ressources.cpp.s
+.PHONY : Ressources.cpp.s
+
 Robot.obj: Robot.cpp.obj
 
 .PHONY : Robot.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... Fonctions.obj
 	@echo ... Fonctions.i
 	@echo ... Fonctions.s
+	@echo ... Ressources.obj
+	@echo ... Ressources.i
+	@echo ... Ressources.s
 	@echo ... Robot.obj
 	@echo ... Robot.i
 	@echo ... Robot.s

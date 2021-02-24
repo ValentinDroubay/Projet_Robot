@@ -23,7 +23,7 @@ public:
     int Reperage(int tableau[5][5]);
     void Retour(int dx, int dy, int tableau[5][5]);
     void Course(int dx, int dy, int tableau[5][5]);
-    ~Robot();
+    
 
 };
 

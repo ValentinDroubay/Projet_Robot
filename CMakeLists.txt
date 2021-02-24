@@ -10,6 +10,4 @@ add_executable(Projet_Robot main.cpp
         Fonctions.cpp
         Ressources.h
         Ressources.cpp
-        Position.h
-        Position.cpp
         )
